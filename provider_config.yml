@@ -18,10 +18,10 @@ spring:
     url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123
-  # jpa:
-    # hibernate:
-      # ddl-auto: update
-    # show-sql: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 eureka:
   instance:
@@ -55,10 +55,10 @@ spring:
     url: jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf8
     username: root
     password: 123
-  # jpa:
-    # hibernate:
-      # ddl-auto: update
-    # show-sql: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 eureka:
   instance:
